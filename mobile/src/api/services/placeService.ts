@@ -5,7 +5,6 @@ export const PlaceService = {
   async getPlacesByCategory(category: string) {
     const url = '/markets/category/' + category;
     const places = await apiClient.get<PlaceDTO[]>(url);
-    console.log("🚀 ~ getPlacesByCategory ~ places:", places)
     return places;
   },
   async getPlaceById(id: string) {

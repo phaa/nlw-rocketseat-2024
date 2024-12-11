@@ -10,7 +10,7 @@ import { InfoProps } from "./info.interface";
 export const Info = ({ icon: Icon, description }: InfoProps) => {
   return (
     <View style={styles.container}>
-      <Icon size={16} color={colors.gray[400]} />
+      <Icon size={16} color={colors.red.base} />
       <Text style={styles.text}>{description}</Text>
     </View>
   )

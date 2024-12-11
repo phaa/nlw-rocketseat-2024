@@ -17,8 +17,9 @@ export const styles = StyleSheet.create({
   },
   title: {
     color: colors.gray[600],
-    fontSize: 16,
+    fontSize: 18,
     fontFamily: fontFamily.regular,
+    textAlign: 'center',
     marginBottom: 16,
   },
 })

@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import { Text, useWindowDimensions } from 'react-native';
+import { router } from 'expo-router';
 import BottomSheet, { BottomSheetFlatList } from '@gorhom/bottom-sheet';
 
 // Estilos
@@ -22,7 +23,10 @@ export function Places({ data }: PlacesProps) {
 
   const renderItem = (item: PlaceDTO) => {
     return (
-      <Place data={item} />
+      <Place
+        data={item}
+        onPress={() => router.navigate(`/market/${item.id}`)}
+      />
     );
   }
 

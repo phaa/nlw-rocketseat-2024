@@ -35,6 +35,7 @@ export const styles = StyleSheet.create({
   },
   footer: {
     flexDirection: 'row',
+    alignItems: 'center',
     gap: 7,
     marginTop: 10,
   },

@@ -40,7 +40,7 @@ export const Details = ({ data }: DetailsProps) => {
 
       <View style={styles.group}>
         <Text style={styles.title}>Regulamento</Text>
-        {data.rules.map((item) => (
+        {data.rules?.map((item) => (
           <Text key={item.id} style={styles.rule}>
             {`\u2022 ${item.description}`}
           </Text>
