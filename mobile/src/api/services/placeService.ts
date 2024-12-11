@@ -1,16 +1,16 @@
-import { api } from '../index';
+import { apiClient } from '../index';
 import { PlaceDTO } from '@/types/place.interface';
 
 export const PlaceService = {
-  async getPlaces() {
-    return api.get<PlaceDTO[]>('/markets/' );
+  async getPlacesByCategory(category: string) {
+    const url = '/markets/category/' + category;
+    const places = await apiClient.get<PlaceDTO[]>(url);
+    console.log("🚀 ~ getPlacesByCategory ~ places:", places)
+    return places;
   },
-
-  async getPlaceById(id: number) {
-    return api.get<PlaceDTO>(`/users/${id}`);
-  },
-
-  /* async createUser(userData: Omit<PlaceDTO, 'id'>) {
-    return api.post<PlaceDTO>('/users', userData);
-  } */
+  async getPlaceById(id: string) {
+    const url = '/markets/' + id;
+    const places = await apiClient.get<PlaceDTO>(url);
+    return places;
+  }
 };

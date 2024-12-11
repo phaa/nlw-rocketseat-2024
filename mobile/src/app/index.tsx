@@ -1,10 +1,10 @@
-import { View, StyleSheet } from "react-native";
-import { router } from "expo-router";
+import { View, StyleSheet } from 'react-native';
+import { router } from 'expo-router';
 
 // Componentes
-import { Steps } from "@/components/steps";
-import { Button } from "@/components/button";
-import { Welcome } from "@/components/welcome";
+import { Steps } from '@/components/steps';
+import { Button } from '@/components/button';
+import { Welcome } from '@/components/welcome';
 
 const Index = () => {
   return (
@@ -12,7 +12,7 @@ const Index = () => {
       <Welcome />
       <Steps />
 
-      <Button onPress={() => router.navigate("/home")}>
+      <Button onPress={() => router.navigate('/home')}>
         <Button.Title>Começar</Button.Title>
       </Button>
     </View>

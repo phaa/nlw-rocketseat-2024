@@ -3,14 +3,14 @@ import {
   Text,
   TextProps,
   ActivityIndicator,
-} from "react-native";
+} from 'react-native';
 
 // Estilos
-import { styles } from "./styles";
-import { colors } from "@/styles/theme";
+import { styles } from './styles';
+import { colors } from '@/styles/theme';
 
 // Interfaces
-import { ButtonProps, IconProps } from "./interfaces";
+import { ButtonProps, IconProps } from './button.interface';
 
 const Button = ({
   children,
@@ -26,7 +26,7 @@ const Button = ({
       {...rest}
     >
       {isLoading ? (
-        <ActivityIndicator size="small" color={colors.gray[100]} />
+        <ActivityIndicator size='small' color={colors.gray[100]} />
       ) : (
         children
       )}

@@ -1,8 +1,8 @@
-import { Stack } from "expo-router";
-import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { Stack } from 'expo-router';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 // Estilos
-import { colors } from "@/styles/theme";
+import { colors } from '@/styles/theme';
 
 // Fontes
 import {
@@ -11,10 +11,10 @@ import {
   Rubik_400Regular,
   Rubik_500Medium,
   Rubik_700Bold,
-} from "@expo-google-fonts/rubik";
+} from '@expo-google-fonts/rubik';
 
 // Componentes
-import { Loading } from "@/components/loading";
+import { Loading } from '@/components/loading';
 
 const Layout = () => {
   const [fontsLoaded] = useFonts({

@@ -1,17 +1,17 @@
-import { Text, View } from "react-native";
+import { Text, View } from 'react-native';
 
 // Estilização
-import { colors } from "@/styles/theme";
-import { styles } from "./styles";
+import { colors } from '@/styles/theme';
+import { styles } from './styles';
 
 // Interfaces
-import { IStepProps } from "./interfaces";
+import { StepProps } from './step.interface';
 
 export const Step = ({
   title,
   description,
   icon: Icon // alias
-}: IStepProps) => {
+}: StepProps) => {
   return (
     <View style={styles.container}>
       {Icon && <Icon size={32} color={colors.red.base} />}
