@@ -1,14 +1,15 @@
 # Next Level Week - Rocketseat 
 
-Este repositório contém duas pastas, sendo uma para a API e outra o aplicativo React-Native desenvolvido durante o treinamento
+This repository contains the code for the API and the React Native application developed during Next Level Week, an intensive training by Rocketseat.
+
 <p align="center">
    <img src="https://app.rocketseat.com.br/_next/image?url=https%3A%2F%2Fxesque.rocketseat.dev%2Fplatform%2F1732881091489.png&w=750&q=75" title="book" width="800" />
 </p>
 
-## Sobre o Treinamento 
-A Next Level Week é um treinamento que foi proporcionado pela Rocketseat. Foram disponibilizadas trilhas de aprendizado para React Native, Kotlin e Swift, sendo React Native a tecnologia escolhida para seguir com o projeto.
+## About the Training 
+Next Level Week is a training program provided by Rocketseat. Learning paths were offered for React Native, Kotlin, and Swift, with React Native being the technology chosen for this project.
 
-O projeto criado foi uma aplicação mobile entitulada Nearby, na qual o usuário pode encontrar estabelecimentos comerciais em geoposicionados em um mapa e encontrar descontos para cada um. O app conta com recursos de geolocalização e trabalho com elementos de mapa em tempo real, controle de camera e escaneamento de QR codes.
+The project created was a mobile application entitled Nearby, in which the user can find geolocated commercial establishments on a map and find discounts for each one. The app has geolocation features and works with real-time map elements, camera control, and QR code scanning.
 
 <p align="center">
    <img src="https://github.com/phaa/nlw-rocketseat-2024/blob/main/desktop-view.jpeg" width="800" />
@@ -21,40 +22,39 @@ O projeto criado foi uma aplicação mobile entitulada Nearby, na qual o usuári
    <img src="https://github.com/phaa/nlw-rocketseat-2024/blob/main/store.jpeg" width="200" />
 </p>
 
-## 📂 Estrutura do Repositório  
-Os notebooks estão organizados por capítulos e tópicos abordados no livro:  
-- `api`: Api em Node.js para fornecimento de dados fiictícios para testes.  
-- `mobile`: Aplicação React Native do app Nearby.  
+## Repository Structure 
+* `api`: Node.js API for providing fictitious data for testing.
+* `mobile`: React Native application for the Nearby app. 
 
 ## Instalação:  
 
-1. **Clone este repositório**:
+1. **Clone this repository**:
 ```bash
    git clone https://github.com/phaa/nlw-rocketseat-2024.git
    cd nlw-rocketseat-2024
    ```
 
-2 **Instale as dependencias e inicie a API**:
+2 **Install the dependencies and start the API**:
 ```bash
    cd api 
    npm install
    npm start
   ```
 
-3 **Inicie o servidor da API**:
+3 **Start the API server**:
 ```bash
    npm start
   ```
 
-4. **Instale as dependencias do React Native**:
+4. **Install the React Native dependencies**:
 ```bash
    cd mobile
    npm install
   ```
 
-5. **Inicie o servidor do Expo**:
+5. **Start the Expo server**:
 ```bash
    npx expo start
   ```
 
-4. **Certifique-se de ter um emulador IOS ou Android em sua máquina**.
+4. **Make sure you have an IOS or Android emulator on your machine**.
