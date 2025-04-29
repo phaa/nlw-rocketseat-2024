@@ -1,6 +1,6 @@
 # Nearby - Coupons Finder 
 
-This repository contains the code for the API and the React Native application developed during Next Level Week, an intensive training by Rocketseat.
+This repository contains the code for the React Native application developed during Next Level Week, an intensive training by Rocketseat.
 
 <p align="center">
    <img src="https://app.rocketseat.com.br/_next/image?url=https%3A%2F%2Fxesque.rocketseat.dev%2Fplatform%2F1732881091489.png&w=750&q=75" title="book" width="800" />
@@ -34,25 +34,12 @@ The project created was a mobile application entitled Nearby, in which the user 
    cd nlw-rocketseat-2024
    ```
 
-2 **Install the dependencies and start the API**:
+2. **Install the React Native dependencies**:
 ```bash
-   cd api 
-   npm install
-   npm start
-  ```
-
-3 **Start the API server**:
-```bash
-   npm start
-  ```
-
-4. **Install the React Native dependencies**:
-```bash
-   cd mobile
    npm install
   ```
 
-5. **Start the Expo server**:
+3. **Start the Expo server**:
 ```bash
    npx expo start
   ```
