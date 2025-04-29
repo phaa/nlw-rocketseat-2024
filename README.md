@@ -1,4 +1,4 @@
-# Next Level Week - Rocketseat 
+# Nearby - Coupons Finder 
 
 This repository contains the code for the API and the React Native application developed during Next Level Week, an intensive training by Rocketseat.
 
